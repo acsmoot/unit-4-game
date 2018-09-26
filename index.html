@@ -9,18 +9,40 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Added link to the jQuery Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
     <!-- Added a link to Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
 </head>
 
 <body>
+    <div class="container">
 
+        <h1>Guess the Crystal Number: <div id="crystal-GameScore"></div> </h1>
+        <hr>
+        
+                
+
+        <h3>Crystal Value: <span id="crystal-value"></span></h3>
+        <div id="crystal-Btn"></div>
+
+            <div class="stats">
+                <h3>
+                    <b>Stats</b>
+                </h3>
+                <p>wins: <span id="wins"></span></p>
+                <p>losses: <span id="losses"></span></p>
+                <p>Your Score: <span id="playerScore"></span></p>
+                <p>scoreCounter: <span id="scoreCounter"></span></p>
+                <p>clickCounter: <span id="clickCounter"></span></p>
+            </div>
+
+        </div>
+    </div>
     
-    <script src="assets/javascript/game.js" type="text/javascript">
-    </script>
+        <script src="assets/javascript/game.js" type="text/javascript">
+
+        </script>
 </body>
 
 </html>
